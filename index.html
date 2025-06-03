@@ -164,7 +164,13 @@
       font-size: 1rem;
       background: #222;
       color: #fff;
+      border-radius: 10px;
     }
+    input[type=number] {
+      display: none;
+    }
+
+
   </style>
 </head>
 <body>
@@ -207,7 +213,7 @@
   <!-- Настройки -->
   <div class="modal" id="settingsModal">
     <div class="modal-content">
-      <label>Недоступно</label><br/>
+      <label>В разработке</label><br/>
       <input type="number" value="500000" id="farmAmount" />
       <br/>
       <button onclick="closeSettings()">Закрыть</button>
